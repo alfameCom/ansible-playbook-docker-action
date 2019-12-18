@@ -4,10 +4,11 @@ on: [push]
 jobs:
   ansible_playbook_job:
     runs-on: ubuntu-latest
-    name: Execute Sample Playbook
+    name: Test this Action with a sample playbook
     steps:
-      - uses: actions/checkout@v1
-      - name: Execute Playbook Action Step
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Execute Ansible Playbook
         id: Execution
         uses: alfameCom/ansible-playbook-docker-action@master
         env:
