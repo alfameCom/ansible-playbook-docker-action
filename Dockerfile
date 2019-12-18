@@ -5,4 +5,6 @@ MAINTAINER Patrick Pötz <devops@wastebox.biz>
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
+RUN pip install netaddr
+
 ENTRYPOINT ["/entrypoint.sh"]
