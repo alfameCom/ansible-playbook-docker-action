@@ -1,5 +1,5 @@
 # ansible-playbook-docker-action
-[![Actions Status](https://github.com/saubermacherag/ansible-playbook-docker-action/workflows/Ansible%20Playbook/badge.svg)](https://github.com/saubermacherag/ansible-playbook-docker-action/actions)
+[![Actions Status](https://github.com/alfameCom/ansible-playbook-docker-action/workflows/Ansible%20Playbook/badge.svg)](https://github.com/alfameCom/ansible-playbook-docker-action/actions)
 
 Github Action to execute Ansible Playbooks using fixed Ansible versions.
 
